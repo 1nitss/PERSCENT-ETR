@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+html,body {
+    font-family: 'Raleway', sans-serif;
+}
+.thankyou-page {
+    height: 100vh;
+    
+    background-color: #D2E9E9 !important;
+}
+.thankyou-page ._header {
+    background: #212529;
+    padding: 100px 30px;
+    text-align: center;
+}
+.thankyou-page ._header .logo {
+    max-width: 200px;
+    margin: 0 auto 50px;
+}
+.thankyou-page ._header .logo img {
+    width: 100%;
+}
+.thankyou-page ._header h1 {
+    font-size: 65px;
+    font-weight: 800;
+    color: white;
+    margin: 0;
+  text-shadow: 2px 2px 4px #000000;
+}
+.thankyou-page ._body {
+    margin: -70px 0 30px;
+}
+.thankyou-page ._body ._box {
+    margin: auto;
+    max-width: 80%;
+    padding: 50px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 35px rgba(10, 10, 10,0.12);
+    
+}
+.thankyou-page ._body ._box h3 {
+    font-family: 'Kaushan Script', cursive;
+    letter-spacing: 1;
+    font-size: 32px;
+    color: black;
+}
+span{
+    font-family: 'Kaushan Script', cursive;
+    letter-spacing: 1;
+    font-size:20px;
+    color: black;
+}
+.thankyou-page ._footer {
+    text-align: center;
+    padding: 50px 30px;
+    
+    background-color: #D2E9E9;
+}
+
+.thankyou-page ._footer .btn {
+    background:  #212529;
+    color: white;
+    border: 0;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 0;
+    letter-spacing: 0.8px;
+    padding: 20px 33px;
+    text-transform: uppercase;
+}
